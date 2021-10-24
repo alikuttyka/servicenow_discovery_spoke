@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description>Sample flow</description>
         <internal_name>discover_ci_upon_change_implementation</internal_name>
-        <label_cache>[{"name":"14c8d3ea-5ef2-40f9-8d10-2d8a4eee00a9.Record.name","label":"9➛Configuration Item Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_ci","column_name":"name"},{"name":"03c3404e-aab2-4f9a-b3d6-4d4d9028f665.item.device_class","label":"5➛Device➛Device Class","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"Created or Updated_1.current","label":"Trigger➛Change Request Record","reference":"change_request","reference_display":"Change Request","type":"reference","base_type":"reference","attributes":{}},{"name":"59b0bea6-4c04-4c7b-979d-e0074a033e98.table_name","label":"10➛Change Request Table","reference":"change_request","reference_display":"Change Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"59b0bea6-4c04-4c7b-979d-e0074a033e98.record","label":"10➛Change Request Record","reference":"change_request","reference_display":"Change Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"03c3404e-aab2-4f9a-b3d6-4d4d9028f665.item.cmdb_device","label":"5➛Device➛Device Id","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"14c8d3ea-5ef2-40f9-8d10-2d8a4eee00a9.error_message","label":"9➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"14c8d3ea-5ef2-40f9-8d10-2d8a4eee00a9.status","label":"9➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"14c8d3ea-5ef2-40f9-8d10-2d8a4eee00a9.Table","label":"9➛Configuration Item Table","reference":"cmdb_ci","reference_display":"Configuration Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"14c8d3ea-5ef2-40f9-8d10-2d8a4eee00a9.Record","label":"9➛Configuration Item Record","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.cmdb_ci","label":"Trigger➛Change Request Record➛Configuration item","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"change_request","column_name":"cmdb_ci"},{"name":"03c3404e-aab2-4f9a-b3d6-4d4d9028f665.item.issue_link","label":"5➛Device➛Issue Link","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"03c3404e-aab2-4f9a-b3d6-4d4d9028f665.item.last_status","label":"5➛Device➛Last Status","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"03c3404e-aab2-4f9a-b3d6-4d4d9028f665.item.ip_address","label":"5➛Device➛Source Address","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"dff39be3-c62e-48e9-8168-21c9e929bcf2.Table","label":"7➛Incident Table","reference":"incident","reference_display":"Incident","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dff39be3-c62e-48e9-8168-21c9e929bcf2.Record","label":"7➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"03c3404e-aab2-4f9a-b3d6-4d4d9028f665.item","label":"5➛Device","reference_display":"Device","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"03c3404e-aab2-4f9a-b3d6-4d4d9028f665.item.operational_status","label":"5➛Device➛Operational Status","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"","attributes":{}},{"name":"50c227ec-65f9-4ee9-bd5a-afe887f7ea1d.discovery_result","label":"3➛Discovery Result","reference_display":"Discovery Result","type":"array.object","base_type":"array.object","attributes":{"sourceId":"3c34fa15-1627-4201-9ce4-90e262711dc6","child_name":"device","uiUniqueId":"474538b0-48dc-4f3e-ab4f-183d3b0376a3","uiTypeLabel":"Array.Object","co_type_name":"FD3818760ba717f410a6c11bf043a0669a","child_label":"Device","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"b8d0fe4d-5eab-4dc1-ba46-e82411c2d05f","uiType":"array.object","child_type":"object","child_uiUniqueId":"9c202874-43cf-4e95-a97c-3d23de0aa091"}},{"name":"50c227ec-65f9-4ee9-bd5a-afe887f7ea1d.count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"84b9d3f5-5f4e-45a0-887e-8f801bd71695"}},{"name":"50e6ca79-a4f4-4555-9805-8e3d2f957869.state","label":"2➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"Created or Updated_1.current.number","label":"Trigger➛Change Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"change_request","column_name":"number"},{"name":"Created or Updated_1.current.cmdb_ci.ip_address","label":"Trigger➛Change Request Record➛Configuration item➛IP Address","reference":"","reference_display":"IP Address","type":"string","base_type":"string","parent_table_name":"cmdb_ci","column_name":"ip_address"},{"name":"e14acc4c-02b1-4362-865c-ec5ea073867d.discovery_status","label":"1➛Discovery Status","reference":"discovery_status","reference_display":"Discovery Status","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"40cf2e2d-edc3-4c6c-b8b0-60235a8bbb1b"}}]</label_cache>
+        <label_cache>[{"name":"e14acc4c-02b1-4362-865c-ec5ea073867d.discovery_status","label":"1➛Discovery Status","reference":"discovery_status","reference_display":"Discovery Status","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"40cf2e2d-edc3-4c6c-b8b0-60235a8bbb1b"}},{"name":"Created or Updated_1.current.cmdb_ci.ip_address","label":"Trigger➛Change Request Record➛Configuration item➛IP Address","reference":"","reference_display":"IP Address","type":"string","base_type":"string","parent_table_name":"cmdb_ci","column_name":"ip_address"},{"name":"Created or Updated_1.current.number","label":"Trigger➛Change Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"change_request","column_name":"number"},{"name":"50e6ca79-a4f4-4555-9805-8e3d2f957869.state","label":"2➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"50c227ec-65f9-4ee9-bd5a-afe887f7ea1d.count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"84b9d3f5-5f4e-45a0-887e-8f801bd71695"}},{"name":"50c227ec-65f9-4ee9-bd5a-afe887f7ea1d.discovery_result","label":"3➛Discovery Result","reference_display":"Discovery Result","type":"array.object","base_type":"array.object","attributes":{"sourceId":"3c34fa15-1627-4201-9ce4-90e262711dc6","child_name":"device","uiUniqueId":"474538b0-48dc-4f3e-ab4f-183d3b0376a3","uiTypeLabel":"Array.Object","co_type_name":"FD3818760ba717f410a6c11bf043a0669a","child_label":"Device","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"b8d0fe4d-5eab-4dc1-ba46-e82411c2d05f","uiType":"array.object","child_type":"object","child_uiUniqueId":"9c202874-43cf-4e95-a97c-3d23de0aa091"}},{"name":"03c3404e-aab2-4f9a-b3d6-4d4d9028f665.item.operational_status","label":"5➛Device➛Operational Status","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"","attributes":{}},{"name":"03c3404e-aab2-4f9a-b3d6-4d4d9028f665.item","label":"5➛Device","reference_display":"Device","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"dff39be3-c62e-48e9-8168-21c9e929bcf2.Record","label":"7➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dff39be3-c62e-48e9-8168-21c9e929bcf2.Table","label":"7➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"03c3404e-aab2-4f9a-b3d6-4d4d9028f665.item.ip_address","label":"5➛Device➛Source Address","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"03c3404e-aab2-4f9a-b3d6-4d4d9028f665.item.last_status","label":"5➛Device➛Last Status","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"03c3404e-aab2-4f9a-b3d6-4d4d9028f665.item.issue_link","label":"5➛Device➛Issue Link","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"Created or Updated_1.current.cmdb_ci","label":"Trigger➛Change Request Record➛Configuration item","reference":"cmdb_ci","reference_display":"Configuration Item","type":"reference","base_type":"reference","parent_table_name":"change_request","column_name":"cmdb_ci"},{"name":"14c8d3ea-5ef2-40f9-8d10-2d8a4eee00a9.Record","label":"9➛Configuration Item Record","reference":"cmdb_ci","reference_display":"Configuration Item Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"14c8d3ea-5ef2-40f9-8d10-2d8a4eee00a9.Table","label":"9➛Configuration Item Table","reference":"cmdb_ci","reference_display":"Configuration Item Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"14c8d3ea-5ef2-40f9-8d10-2d8a4eee00a9.status","label":"9➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"14c8d3ea-5ef2-40f9-8d10-2d8a4eee00a9.error_message","label":"9➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"03c3404e-aab2-4f9a-b3d6-4d4d9028f665.item.cmdb_device","label":"5➛Device➛Device Id","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"59b0bea6-4c04-4c7b-979d-e0074a033e98.record","label":"10➛Change Request Record","reference":"change_request","reference_display":"Change Request Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"59b0bea6-4c04-4c7b-979d-e0074a033e98.table_name","label":"10➛Change Request Table","reference":"change_request","reference_display":"Change Request Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Change Request Record","reference":"change_request","reference_display":"Change Request","type":"reference","base_type":"reference","attributes":{}},{"name":"03c3404e-aab2-4f9a-b3d6-4d4d9028f665.item.device_class","label":"5➛Device➛Device Class","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"14c8d3ea-5ef2-40f9-8d10-2d8a4eee00a9.Record.name","label":"9➛Configuration Item Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_ci","column_name":"name"},{"name":"e14acc4c-02b1-4362-865c-ec5ea073867d.discovery_status.number","label":"1➛Discovery Status➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"discovery_status","column_name":"number"}]</label_cache>
         <latest_snapshot>60cc3e832f57f410ba1b52492799b652</latest_snapshot>
         <master_snapshot>bffb72432f57f410ba1b52492799b6ce</master_snapshot>
         <name>Discover CI upon Change Implementation</name>
@@ -23,14 +23,14 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-24 10:06:22</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8919b28b2f17f410ba1b52492799b6a9</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Discover CI upon Change Implementation</sys_name>
         <sys_overrides/>
         <sys_package display_value="ServiceNow Discovery Spoke" source="b1c1764f2fd3f410ba1b52492799b608">b1c1764f2fd3f410ba1b52492799b608</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="ServiceNow Discovery Spoke">b1c1764f2fd3f410ba1b52492799b608</sys_scope>
         <sys_update_name>sys_hub_flow_8919b28b2f17f410ba1b52492799b6a9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 10:25:09</sys_updated_on>
+        <sys_updated_on>2021-10-24 15:01:59</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=8919b28b2f17f410ba1b52492799b6a9"/>
@@ -105,10 +105,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-24 10:16:49</sys_created_on>
         <sys_id>ca7bfecf2f17f410ba1b52492799b65f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 10:19:15</sys_updated_on>
+        <sys_updated_on>2021-10-24 15:01:58</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -160,7 +160,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -218,14 +218,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-24 10:16:48</sys_created_on>
         <sys_id>4a7bfecf2f17f410ba1b52492799b60b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ServiceNow Discovery Spoke">b1c1764f2fd3f410ba1b52492799b608</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 10:19:15</sys_updated_on>
+        <sys_updated_on>2021-10-24 15:01:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -241,7 +241,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD710cf2432057f410823c273b2977bcdd,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD0fbc374fe3dbf4108aaebf348c2d63f5,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -299,14 +299,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-24 10:16:49</sys_created_on>
         <sys_id>4e7bfecf2f17f410ba1b52492799b614</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ServiceNow Discovery Spoke">b1c1764f2fd3f410ba1b52492799b608</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 10:19:15</sys_updated_on>
+        <sys_updated_on>2021-10-24 15:01:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -322,7 +322,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -380,14 +380,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-24 10:16:49</sys_created_on>
         <sys_id>867bfecf2f17f410ba1b52492799b61a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ServiceNow Discovery Spoke">b1c1764f2fd3f410ba1b52492799b608</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 10:19:15</sys_updated_on>
+        <sys_updated_on>2021-10-24 15:01:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -399,7 +399,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=8919b28b2f17f410ba1b52492799b6a9^sys_idNOT IN127bfecf2f17f410ba1b52492799b679,227bfecf2f17f410ba1b52492799b696,227bfecf2f17f410ba1b52492799b69c,8e7bfecf2f17f410ba1b52492799b667,927bfecf2f17f410ba1b52492799b670,ee7bfecf2f17f410ba1b52492799b68a"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=8919b28b2f17f410ba1b52492799b6a9^sys_idNOT IN127bfecf2f17f410ba1b52492799b679,227bfecf2f17f410ba1b52492799b696,227bfecf2f17f410ba1b52492799b69c,8e7bfecf2f17f410ba1b52492799b667,927bfecf2f17f410ba1b52492799b670,d3bc774f2fdbf410ba1b52492799b682,ee7bfecf2f17f410ba1b52492799b68a"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -415,10 +415,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-24 10:16:50</sys_created_on>
         <sys_id>127bfecf2f17f410ba1b52492799b679</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="ServiceNow Discovery Spoke">b1c1764f2fd3f410ba1b52492799b608</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-10-24 10:22:28</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 15:01:58</sys_updated_on>
         <ui_id>50c227ec-65f9-4ee9-bd5a-afe887f7ea1d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=127bfecf2f17f410ba1b52492799b679"/>
@@ -450,10 +450,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-24 10:16:51</sys_created_on>
         <sys_id>227bfecf2f17f410ba1b52492799b696</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="ServiceNow Discovery Spoke">b1c1764f2fd3f410ba1b52492799b608</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-10-24 10:22:29</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 15:01:59</sys_updated_on>
         <ui_id>14c8d3ea-5ef2-40f9-8d10-2d8a4eee00a9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=227bfecf2f17f410ba1b52492799b696"/>
@@ -511,10 +511,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-24 10:16:51</sys_created_on>
         <sys_id>227bfecf2f17f410ba1b52492799b69c</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="ServiceNow Discovery Spoke">b1c1764f2fd3f410ba1b52492799b608</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-10-24 10:22:29</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 15:01:59</sys_updated_on>
         <ui_id>59b0bea6-4c04-4c7b-979d-e0074a033e98</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=227bfecf2f17f410ba1b52492799b69c"/>
@@ -584,10 +584,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-24 10:16:49</sys_created_on>
         <sys_id>8e7bfecf2f17f410ba1b52492799b667</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="ServiceNow Discovery Spoke">b1c1764f2fd3f410ba1b52492799b608</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-10-24 10:22:28</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 15:01:58</sys_updated_on>
         <ui_id>e14acc4c-02b1-4362-865c-ec5ea073867d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8e7bfecf2f17f410ba1b52492799b667"/>
@@ -657,10 +657,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-24 10:16:50</sys_created_on>
         <sys_id>927bfecf2f17f410ba1b52492799b670</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="ServiceNow Discovery Spoke">b1c1764f2fd3f410ba1b52492799b608</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-10-24 10:22:28</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 15:01:58</sys_updated_on>
         <ui_id>50e6ca79-a4f4-4555-9805-8e3d2f957869</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=927bfecf2f17f410ba1b52492799b670"/>
@@ -784,6 +784,67 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Discover CI upon Change Implementation">8919b28b2f17f410ba1b52492799b6a9</flow>
+        <order>12</order>
+        <parent_ui_id>c852208a-2ba5-498d-a6d0-588c80c8c01d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 15:01:59</sys_created_on>
+        <sys_id>d3bc774f2fdbf410ba1b52492799b682</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ServiceNow Discovery Spoke">b1c1764f2fd3f410ba1b52492799b608</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 15:01:59</sys_updated_on>
+        <ui_id>7cd55497-73e1-4e0d-9e64-a619da493256</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d3bc774f2fdbf410ba1b52492799b682"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d3bc774f2fdbf410ba1b52492799b682</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 15:01:59</sys_created_on>
+        <sys_id>1bbc774f2fdbf410ba1b52492799b684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 15:01:59</sys_updated_on>
+        <value>error</value>
+        <variable display_value="Level">5bc1bcc6531003003bf1d9109ec587d7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d3bc774f2fdbf410ba1b52492799b682"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_level</field>
+        <id>d3bc774f2fdbf410ba1b52492799b682</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 15:01:59</sys_created_on>
+        <sys_id>5fbc774f2fdbf410ba1b52492799b683</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 15:01:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>d3bc774f2fdbf410ba1b52492799b682</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 15:01:59</sys_created_on>
+        <sys_id>97bc774f2fdbf410ba1b52492799b684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 15:01:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>Discovery failed for {{e14acc4c-02b1-4362-865c-ec5ea073867d.discovery_status.number}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
         <action_type_parent/>
         <comment/>
@@ -796,10 +857,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-24 10:16:51</sys_created_on>
         <sys_id>ee7bfecf2f17f410ba1b52492799b68a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="ServiceNow Discovery Spoke">b1c1764f2fd3f410ba1b52492799b608</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-10-24 10:22:29</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 15:01:59</sys_updated_on>
         <ui_id>dff39be3-c62e-48e9-8168-21c9e929bcf2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ee7bfecf2f17f410ba1b52492799b68a"/>
@@ -842,7 +903,7 @@
         <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=8919b28b2f17f410ba1b52492799b6a9^sys_idNOT IN567bfecf2f17f410ba1b52492799b67b,5a7bfecf2f17f410ba1b52492799b680,667bfecf2f17f410ba1b52492799b68d,6e7bfecf2f17f410ba1b52492799b683"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=8919b28b2f17f410ba1b52492799b6a9^sys_idNOT IN567bfecf2f17f410ba1b52492799b67b,5a7bfecf2f17f410ba1b52492799b680,667bfecf2f17f410ba1b52492799b68d,6e7bfecf2f17f410ba1b52492799b683,dfbc774f2fdbf410ba1b52492799b67c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">5a7bfecf2f17f410ba1b52492799b67a</block>
         <comment/>
@@ -865,10 +926,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-24 10:16:50</sys_created_on>
         <sys_id>567bfecf2f17f410ba1b52492799b67b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="ServiceNow Discovery Spoke">b1c1764f2fd3f410ba1b52492799b608</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 10:19:16</sys_updated_on>
+        <sys_updated_on>2021-10-24 15:01:59</sys_updated_on>
         <ui_id>7210da40-c171-4790-be55-ac85d3438ed2</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -935,10 +996,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-24 10:16:50</sys_created_on>
         <sys_id>5a7bfecf2f17f410ba1b52492799b680</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="ServiceNow Discovery Spoke">b1c1764f2fd3f410ba1b52492799b608</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 10:19:16</sys_updated_on>
+        <sys_updated_on>2021-10-24 15:01:59</sys_updated_on>
         <ui_id>03c3404e-aab2-4f9a-b3d6-4d4d9028f665</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -978,10 +1039,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-24 10:16:51</sys_created_on>
         <sys_id>667bfecf2f17f410ba1b52492799b68d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="ServiceNow Discovery Spoke">b1c1764f2fd3f410ba1b52492799b608</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 10:19:16</sys_updated_on>
+        <sys_updated_on>2021-10-24 15:01:59</sys_updated_on>
         <ui_id>0931dacb-d2a1-4b8e-9381-a55ebe7472f2</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1009,10 +1070,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-24 10:16:50</sys_created_on>
         <sys_id>6e7bfecf2f17f410ba1b52492799b683</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="ServiceNow Discovery Spoke">b1c1764f2fd3f410ba1b52492799b608</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-24 10:19:16</sys_updated_on>
+        <sys_updated_on>2021-10-24 15:01:59</sys_updated_on>
         <ui_id>423a36a9-951b-446f-85b9-305b6efc1c3f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1057,6 +1118,36 @@
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">1bbc774f2fdbf410ba1b52492799b67c</block>
+        <comment/>
+        <connected_to>7210da40-c171-4790-be55-ac85d3438ed2</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Discover CI upon Change Implementation">8919b28b2f17f410ba1b52492799b6a9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 15:01:59</sys_created_on>
+        <sys_id>dfbc774f2fdbf410ba1b52492799b67c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ServiceNow Discovery Spoke">b1c1764f2fd3f410ba1b52492799b608</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 15:01:59</sys_updated_on>
+        <ui_id>c852208a-2ba5-498d-a6d0-588c80c8c01d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=dfbc774f2fdbf410ba1b52492799b67c"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_8919b28b2f17f410ba1b52492799b6a9^sys_idNOT IN067bfecf2f17f410ba1b52492799b613,c27bfecf2f17f410ba1b52492799b619,ca7bfecf2f17f410ba1b52492799b65c"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>current</element>
